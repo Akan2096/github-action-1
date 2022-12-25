@@ -9,7 +9,7 @@ jobs:
       - name: Install Nodejs
         uses: actions/setup-node@v3
         with:
-          node-version: 18
+          node-version: '14.x'
       - name: Intall dependencies
         uses: npm ci
       - name: Run tests
